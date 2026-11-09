@@ -1,0 +1,8 @@
+# PyTorch solo CPU: mucho más liviano que la versión con CUDA (Streamlit Community Cloud no tiene GPU)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.5
+streamlit==1.67.0
+numpy
+pandas
+altair>=5.4
+pillow
